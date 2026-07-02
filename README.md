@@ -1,61 +1,71 @@
-# 📊 Prodigy Infotech – Data Science Internship
+# Data Science Projects
 
-This repository contains all the tasks completed during my **Data Science Internship at Prodigy Infotech**.
+A collection of data science and machine learning projects developed using Python. This repository demonstrates skills in data analysis, data visualization, exploratory data analysis (EDA), predictive modeling, and sentiment analysis.
 
-## 🚀 Tasks Completed
+## Projects
 
-### ✅ Task 01 – Population Distribution Visualization
+### 1. World Population Visualization
+- Visualized global population trends using bar charts and histograms.
+- Explored demographic distributions across different countries and regions.
 
-* Performed data cleaning and preprocessing.
-* Created bar charts and histograms.
-* Visualized the distribution of population data.
-* Analyzed trends using Matplotlib and Seaborn.
+### 2. Titanic Data Exploration
+- Performed exploratory data analysis on the Titanic dataset.
+- Identified patterns and relationships affecting passenger survival.
+- Created informative visualizations using Python libraries.
 
----
+### 3. Customer Purchase Prediction
+- Built a machine learning model to predict customer purchasing behavior.
+- Included data preprocessing, feature engineering, model training, and evaluation.
 
-### ✅ Task 02 – Titanic Dataset Analysis
+### 4. Twitter Sentiment Analysis
+- Analyzed social media posts to classify sentiments as Positive, Neutral, or Negative.
+- Applied text preprocessing and natural language processing (NLP) techniques.
 
-* Cleaned and explored the dataset.
-* Handled missing values and duplicates.
-* Performed Exploratory Data Analysis (EDA).
-* Identified key factors affecting passenger survival.
+### 5. Traffic Accident Analysis
+- Explored traffic accident datasets to identify accident hotspots and contributing factors.
+- Created visualizations to uncover trends and patterns in road accidents.
 
----
+## Technologies Used
 
-### ✅ Task 03 – Bank Marketing Analysis
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- NLTK
+- Jupyter Notebook
 
-* Analyzed customer demographics and campaign data.
-* Explored relationships between different features.
-* Visualized customer behavior using multiple charts.
-* Derived business insights from the dataset.
+## Repository Structure
 
----
+```
+.
+├── 01_world_population_visualization.ipynb
+├── 02_titanic_data_exploration.ipynb
+├── 03_customer_purchase_prediction.ipynb
+├── 04_twitter_sentiment_analysis.ipynb
+├── 05_traffic_accident_analysis.ipynb
+└── README.md
+```
 
-### ✅ Task 04 – Twitter Sentiment Analysis
+## Getting Started
 
-* Cleaned and preprocessed text data.
-* Performed sentiment analysis on tweets.
-* Visualized sentiment distribution.
-* Generated insights from textual data.
+1. Clone the repository:
 
----
+```bash
+git clone https://github.com/your-username/data-science-projects.git
+```
 
-### ✅ Task 05 – Traffic Accident Data Analysis
+2. Install the required libraries:
 
-* Cleaned and analyzed the US Accidents dataset.
-* Studied accident patterns based on weather, time, and road conditions.
-* Visualized accident severity and state-wise trends.
-* Created accident hotspot maps using Folium.
-* Derived key insights through Exploratory Data Analysis (EDA).
+```bash
+pip install -r requirements.txt
+```
 
-## 🛠️ Tech Stack
+3. Open the notebooks in Jupyter Notebook or VS Code.
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Plotly
-* Folium
-* Scikit-learn
-* Jupyter Notebook
+## Author
+
+**Pragya Priya Sahoo**
+
+If you found these projects useful, feel free to ⭐ this repository.
