@@ -1,124 +1,71 @@
-# Prodigy InfoTech – Data Science Internship
+# Data Science Projects
 
-This repository contains all the tasks completed during my **Data Science Internship at Prodigy InfoTech**. These projects demonstrate practical applications of **data analysis, data visualization, machine learning, and natural language processing (NLP)** using Python and its data science ecosystem.
+A collection of data science and machine learning projects developed using Python. This repository demonstrates skills in data analysis, data visualization, exploratory data analysis (EDA), predictive modeling, and sentiment analysis.
 
----
+## Projects
 
-# 📌 Tasks Completed
+### 1. World Population Visualization
+- Visualized global population trends using bar charts and histograms.
+- Explored demographic distributions across different countries and regions.
 
-## ✅ Task 01 – Data Visualization
+### 2. Titanic Data Exploration
+- Performed exploratory data analysis on the Titanic dataset.
+- Identified patterns and relationships affecting passenger survival.
+- Created informative visualizations using Python libraries.
 
-Created insightful visualizations to analyze data distributions, trends, and relationships using Python visualization libraries.
+### 3. Customer Purchase Prediction
+- Built a machine learning model to predict customer purchasing behavior.
+- Included data preprocessing, feature engineering, model training, and evaluation.
 
-**Key Highlights**
+### 4. Twitter Sentiment Analysis
+- Analyzed social media posts to classify sentiments as Positive, Neutral, or Negative.
+- Applied text preprocessing and natural language processing (NLP) techniques.
 
-* Data exploration
-* Bar charts and histograms
-* Distribution analysis
-* Data visualization using Matplotlib & Seaborn
+### 5. Traffic Accident Analysis
+- Explored traffic accident datasets to identify accident hotspots and contributing factors.
+- Created visualizations to uncover trends and patterns in road accidents.
 
-**Skills:** Data Visualization, Matplotlib, Seaborn
+## Technologies Used
 
----
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- NLTK
+- Jupyter Notebook
 
-## ✅ Task 02 – Data Cleaning & Exploratory Data Analysis (EDA)
+## Repository Structure
 
-Performed data preprocessing and exploratory data analysis to clean the dataset and discover meaningful insights through statistical summaries and visualizations.
-
-**Workflow**
-
-* Data Cleaning
-* Handling Missing Values
-* Exploratory Data Analysis
-* Feature Analysis
-* Data Visualization
-
-**Skills:** Pandas, Data Cleaning, EDA, Data Visualization
-
----
-
-## ✅ Task 03 – Decision Tree Classification
-
-Built a Decision Tree Classification model to predict whether a customer will subscribe to a term deposit using the Bank Marketing Dataset.
-
-**Workflow**
-
-* Data Loading
-* Exploratory Data Analysis (EDA)
-* Data Preprocessing
-* Label Encoding
-* Train-Test Split
-* Decision Tree Model Training
-* Model Evaluation
-* Confusion Matrix
-* Feature Importance
-* Decision Tree Visualization
-
-**Skills:** Scikit-learn, Decision Trees, Classification, Machine Learning
-
----
-
-## ✅ Task 04 – Social Media Sentiment Analysis
-
-Analyzed and visualized sentiment patterns in social media data to understand public opinion and attitudes toward different topics and brands using **VADER Sentiment Analysis**.
-
-**Workflow**
-
-* Data Loading
-* Text Preprocessing
-* Exploratory Data Analysis (EDA)
-* Sentiment Classification using VADER
-* Sentiment Distribution Analysis
-* Word Cloud Generation
-* Entity-wise Sentiment Analysis
-* Performance Evaluation
-* Confusion Matrix
-* Accuracy, Precision, Recall & F1-Score
-* Key Insights & Conclusion
-
-**Skills:** Natural Language Processing (NLP), VADER Sentiment Analysis, Text Preprocessing, Data Visualization, Scikit-learn, Pandas
-
----
-
-# 🛠️ Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* NLTK
-* VADER Sentiment Analyzer
-* WordCloud
-* Jupyter Notebook / VS Code
-
----
-
-# 📂 Repository Structure
-
-```text
-PRODIGY-INFOTECH/
-│
-├── PRODIGY_DS_01.ipynb
-├── PRODIGY_DS_02.ipynb
-├── PRODIGY_DS_03.ipynb
-├── PRODIGY_DS_04.ipynb
+```
+.
+├── 01_world_population_visualization.ipynb
+├── 02_titanic_data_exploration.ipynb
+├── 03_customer_purchase_prediction.ipynb
+├── 04_twitter_sentiment_analysis.ipynb
+├── 05_traffic_accident_analysis.ipynb
 └── README.md
 ```
 
----
+## Getting Started
 
-# 🏢 Internship Details
+1. Clone the repository:
 
-**Company:** Prodigy InfoTech
+```bash
+git clone https://github.com/your-username/data-science-projects.git
+```
 
-**Domain:** Data Science Internship
+2. Install the required libraries:
 
----
+```bash
+pip install -r requirements.txt
+```
 
-## 👨‍💻 Author
+3. Open the notebooks in Jupyter Notebook or VS Code.
+
+## Author
 
 **Pragya Priya Sahoo**
 
-If you found this repository useful, consider giving it a ⭐ on GitHub.
+If you found these projects useful, feel free to ⭐ this repository.
